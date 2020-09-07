@@ -147,6 +147,7 @@
   
   img {
     border-style: none;
+    object-fit: cover;
   }
   
   /* Forms
@@ -355,7 +356,7 @@
 	font: 75% verdana, sans-serif;
 	line-height: 1.88889;
 	color: #313131; 
-	background: #fff url(C:\Users\kathr\LaunchCode\Assignments\html-me-something\images\Data_Driven_Marketing_Graphic.jpeg) no-repeat top right; 
+	background: #fff; 
 	margin: 1%; 
 	}
 
@@ -481,7 +482,8 @@ a:hover {
 }
 
 footer {
-    margin-top: 50;
+    margin-top: 75;
+    padding: 25;
     font: 75% verdana, sans-serif;
     font-size: 0.6em;
 }
