@@ -147,7 +147,6 @@
   
   img {
     border-style: none;
-    object-fit: cover;
   }
   
   /* Forms
@@ -378,8 +377,9 @@ margin-bottom: 50px;
 }
 
 img {
-    height: 150%;
-    width: 75%;
+  object-fit: contain; 
+  height: 150%;
+  width: 75%;
 }
 
 .row_1 {
